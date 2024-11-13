@@ -46,6 +46,8 @@ modificarcolumnasamostrar(atributo){
 
 mostrarocultarcolumnas(){
 
+	document.getElementById("titulostablacabecera").style.display = 'table-header-group'
+	
     for (let columna of this.atributos){
         if (this.columnasamostrar.includes(columna)){}
         else{
